@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "esnext",
+    "target": "esnext",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node"
+    // "noImplicitAny": true,
+    // "noImplicitThis": true,
+    // "strictNullChecks": true,
+    // "strictFunctionTypes": true
+    // "sourceMap": true
+  },
+  "include": ["src", "index.d.ts", "./.eslintrc.cjs"]
+  // "exclude": ["**/*.cy.tsx"]
+}
